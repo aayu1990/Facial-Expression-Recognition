@@ -18,9 +18,7 @@ UPLOAD_FOLDER = '/Users/ankurgupta/Desktop/Final-Project/CAM_project3/static/ima
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-@app.route("/home")
-def main():
-    return render_template('index.html')
+
 
   
 def allowed_file(filename):
